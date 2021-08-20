@@ -1,0 +1,9 @@
+version: "3"
+services:
+  package:
+    image: registry.gitlab.com/aplus-framework/images/package
+    container_name: package-framework
+    working_dir: /package
+    volumes:
+      - .:/package
+    tty: true
