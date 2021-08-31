@@ -17,6 +17,7 @@
     ],
     "require": {
         "php": ">=8.0",
+        "aplus/crypto": "dev-master",
         "aplus/factories": "dev-master",
         "aplus/mvc": "dev-master"
     },
