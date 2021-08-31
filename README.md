@@ -1,6 +1,7 @@
 # Aplus Framework
 
-- [Documentation](https://docs.aplus-framework.com)
+- [User Guides](https://docs.aplus-framework.com/guides/index.html)
+- [API Documentation](https://docs.aplus-framework.com/packages/default.html)
 
 [![pipeline](https://gitlab.com/aplus-framework/framework/badges/master/pipeline.svg)](https://gitlab.com/aplus-framework/framework/-/pipelines?scope=branches)
 [![packagist](https://img.shields.io/packagist/v/aplus/framework)](https://packagist.org/packages/aplus/framework)
