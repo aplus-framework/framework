@@ -1,6 +1,6 @@
 {
     "name": "aplus/framework",
-    "type": "metapackage",
+    "type": "library",
     "description": "Aplus Framework",
     "keywords": [
         "aplus",
@@ -25,8 +25,11 @@
     },
     "require-dev": {
         "ext-xdebug": "*",
-        "aplus/coding-standard": "^1.10",
-        "ergebnis/composer-normalize": "^2.15"
+        "aplus/coding-standard": "^1.11",
+        "ergebnis/composer-normalize": "^2.15",
+        "phpmd/phpmd": "^2.10",
+        "phpstan/phpstan": "^0.12",
+        "phpunit/phpunit": "^9.5"
     },
     "config": {
         "optimize-autoloader": true,
