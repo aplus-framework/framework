@@ -36,6 +36,16 @@
         "preferred-install": "dist",
         "sort-packages": true
     },
+    "autoload": {
+        "classmap": [
+            "src/Aplus.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests"
+        }
+    },
     "minimum-stability": "dev",
     "prefer-stable": true,
     "support": {
