@@ -19,6 +19,8 @@
         "php": ">=8.0",
         "aplus/crypto": "dev-master",
         "aplus/factories": "dev-master",
+        "aplus/http-client": "dev-master",
+        "aplus/image": "dev-master",
         "aplus/mvc": "dev-master"
     },
     "require-dev": {
