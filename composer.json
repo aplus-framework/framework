@@ -1,18 +1,31 @@
 {
     "name": "aplus/framework",
-    "type": "library",
     "description": "Aplus Framework",
+    "license": "MIT",
+    "type": "library",
     "keywords": [
         "aplus",
         "framework"
     ],
-    "homepage": "https://aplus-framework.com",
-    "license": "MIT",
     "authors": [
         {
             "name": "Natan Felles",
             "email": "natanfelles@gmail.com",
             "homepage": "https://natanfelles.github.io"
+        }
+    ],
+    "homepage": "https://aplus-framework.com/packages/framework",
+    "support": {
+        "email": "support@aplus-framework.com",
+        "issues": "https://gitlab.com/aplus-framework/framework/issues",
+        "forum": "https://aplus-framework.com/forum",
+        "source": "https://gitlab.com/aplus-framework/framework",
+        "docs": "https://docs.aplus-framework.com/guides/framework/"
+    },
+    "funding": [
+        {
+            "type": "Aplus Sponsor",
+            "url": "https://aplus-framework.com/sponsor"
         }
     ],
     "require": {
@@ -25,17 +38,14 @@
     },
     "require-dev": {
         "ext-xdebug": "*",
-        "aplus/coding-standard": "^1.11",
-        "ergebnis/composer-normalize": "^2.15",
-        "phpmd/phpmd": "^2.10",
+        "aplus/coding-standard": "^1.12",
+        "ergebnis/composer-normalize": "^2.18",
+        "phpmd/phpmd": "^2.11",
         "phpstan/phpstan": "^0.12",
         "phpunit/phpunit": "^9.5"
     },
-    "config": {
-        "optimize-autoloader": true,
-        "preferred-install": "dist",
-        "sort-packages": true
-    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "autoload": {
         "classmap": [
             "src/Aplus.php"
@@ -46,13 +56,9 @@
             "Tests\\": "tests"
         }
     },
-    "minimum-stability": "dev",
-    "prefer-stable": true,
-    "support": {
-        "email": "support@aplus-framework.com",
-        "issues": "https://gitlab.com/aplus-framework/framework/issues",
-        "wiki": "https://gitlab.com/aplus-framework/framework/wikis/home",
-        "source": "https://gitlab.com/aplus-framework/framework",
-        "docs": "https://docs.aplus-framework.com"
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
     }
 }
