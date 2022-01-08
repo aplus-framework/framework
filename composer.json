@@ -30,16 +30,16 @@
     ],
     "require": {
         "php": ">=8.0",
-        "aplus/crypto": "dev-master",
-        "aplus/factories": "dev-master",
-        "aplus/http-client": "dev-master",
-        "aplus/image": "dev-master",
+        "aplus/crypto": "^1.0",
+        "aplus/factories": "^1.0",
+        "aplus/http-client": "^3.2",
+        "aplus/image": "^2.2",
         "aplus/mvc": "dev-master"
     },
     "require-dev": {
         "ext-xdebug": "*",
         "aplus/coding-standard": "^1.12",
-        "ergebnis/composer-normalize": "^2.18",
+        "ergebnis/composer-normalize": "^2.23",
         "phpmd/phpmd": "^2.11",
         "phpstan/phpstan": "^0.12",
         "phpunit/phpunit": "^9.5"
@@ -57,6 +57,9 @@
         }
     },
     "config": {
+        "allow-plugins": {
+            "ergebnis/composer-normalize": true
+        },
         "optimize-autoloader": true,
         "preferred-install": "dist",
         "sort-packages": true
