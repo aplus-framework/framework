@@ -32,7 +32,7 @@
         "php": ">=8.1",
         "aplus/crypto": "^1.0",
         "aplus/factories": "^1.0",
-        "aplus/http-client": "^3.2",
+        "aplus/http-client": "^4.0",
         "aplus/image": "^2.2",
         "aplus/mvc": "dev-master"
     },
