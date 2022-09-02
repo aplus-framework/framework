@@ -3,3 +3,7 @@ parameters:
     paths:
         - src
         - tests
+    dynamicConstantNames:
+        - Aplus::VERSION
+        - Aplus::CODENAME
+        - Aplus::DESCRIPTION
