@@ -34,7 +34,7 @@
         "aplus/factories": "^1.0",
         "aplus/http-client": "^4.0",
         "aplus/image": "^2.2",
-        "aplus/mvc": "dev-master"
+        "aplus/mvc": "^3.0"
     },
     "require-dev": {
         "ext-xdebug": "*",
