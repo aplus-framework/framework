@@ -26,6 +26,7 @@ return (new Autoloader())->setClasses([
     'Framework\Date' => $aplusDir . 'date/src',
     'Framework\Debug' => $aplusDir . 'debug/src',
     'Framework\Email' => $aplusDir . 'email/src',
+    'Framework\Events' => $aplusDir . 'events/src',
     'Framework\Factories' => $aplusDir . 'factories/src',
     'Framework\Helpers' => $aplusDir . 'helpers/src',
     'Framework\HTTP' => $aplusDir . 'http/src',
