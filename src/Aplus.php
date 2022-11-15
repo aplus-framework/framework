@@ -20,16 +20,4 @@ final class Aplus
      * @var string
      */
     public const VERSION = '21.0.0';
-    /**
-     * The codename of the Aplus version.
-     *
-     * @var string
-     */
-    public const CODENAME = 'geneses';
-    /**
-     * The description of the Aplus version.
-     *
-     * @var string
-     */
-    public const DESCRIPTION = 'Aplus 21';
 }

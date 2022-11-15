@@ -24,22 +24,4 @@ final class AplusTest extends TestCase
             Aplus::VERSION
         );
     }
-
-    public function testCodename() : void
-    {
-        self::assertMatchesRegularExpression(
-            '#^[a-z]{2,16}$#',
-            Aplus::CODENAME
-        );
-    }
-
-    public function testDescription() : void
-    {
-        $version = \substr(Aplus::VERSION, 0, 2);
-        $suffix = $version % 2 ? '' : ' LTS';
-        self::assertMatchesRegularExpression(
-            '#^Aplus ' . $version . $suffix . '$#',
-            Aplus::DESCRIPTION
-        );
-    }
 }
