@@ -19,6 +19,7 @@ return (new Autoloader())->setClasses([
     'Framework\Autoload' => $aplusDir . 'autoload/src',
     'Framework\Cache' => $aplusDir . 'cache/src',
     'Framework\CLI' => $aplusDir . 'cli/src',
+    'Framework\CLI\Commands' => $aplusDir . 'dev-commands/src',
     'Framework\Config' => $aplusDir . 'config/src',
     'Framework\Crypto' => $aplusDir . 'crypto/src',
     'Framework\Database' => $aplusDir . 'database/src',
