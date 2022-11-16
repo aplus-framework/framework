@@ -31,8 +31,6 @@ about the current version of the installed framework:
 .. code-block:: php
 
     echo Aplus::VERSION;
-    echo Aplus::CODENAME;
-    echo Aplus::DESCRIPTION;
 
 With this package it is possible to create applications according to the need of
 the developer.
