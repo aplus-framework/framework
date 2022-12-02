@@ -35,7 +35,7 @@
         "aplus/cli": "2.3.1",
         "aplus/config": "3.0.1",
         "aplus/crypto": "1.0.2",
-        "aplus/database": "3.2.1",
+        "aplus/database": "3.2.2",
         "aplus/database-extra": "3.0.1",
         "aplus/date": "2.0.1",
         "aplus/debug": "3.3.5",
