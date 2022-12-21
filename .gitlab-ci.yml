@@ -9,17 +9,19 @@ variables:
 
 test:php:
   stage: test
+  timeout: 10 minutes
   cache:
     paths:
       - build/
       - vendor/
   before_script:
-    - composer install
+    - php -v
+    - composer update
   script:
     - composer normalize --dry-run --indent-size=4 --indent-style=space
     - vendor/bin/php-cs-fixer fix --diff --dry-run --verbose
     - vendor/bin/phpmd src xml phpmd.xml
-    - vendor/bin/phpstan analyse -vvv
+    - vendor/bin/phpstan analyse --xdebug -vvv
     - vendor/bin/phpunit --colors=never
     - phpdoc
   artifacts:
@@ -28,8 +30,23 @@ test:php:
       - build/docs/
   coverage: '/^\s*Lines:\s*\d+.\d+\%/'
 
+test:php-last:
+  image: registry.gitlab.com/aplus-framework/images/base:3
+  stage: test
+  timeout: 10 minutes
+  cache:
+    paths:
+      - vendor/
+  before_script:
+    - php -v
+    - composer update
+  script:
+    - vendor/bin/phpunit --colors=never
+  coverage: '/^\s*Lines:\s*\d+.\d+\%/'
+
 pages:
   stage: deploy
+  timeout: 10 minutes
   dependencies:
     - test:php
   environment:
