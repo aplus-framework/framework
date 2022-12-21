@@ -44,7 +44,7 @@
         "aplus/events": "1.4.2",
         "aplus/factories": "1.0.1",
         "aplus/helpers": "3.0.1",
-        "aplus/http": "5.2.3",
+        "aplus/http": "5.2.4",
         "aplus/http-client": "4.2.1",
         "aplus/image": "2.2.3",
         "aplus/language": "3.0.2",
@@ -53,7 +53,7 @@
         "aplus/pagination": "3.3.0",
         "aplus/routing": "3.4.2",
         "aplus/session": "3.2.1",
-        "aplus/validation": "2.1.2"
+        "aplus/validation": "2.1.3"
     },
     "require-dev": {
         "ext-xdebug": "*",
