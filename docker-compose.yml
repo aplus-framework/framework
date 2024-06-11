@@ -7,8 +7,8 @@ services:
     volumes:
       - .:/package
     tty: true
-  package-last:
-    image: registry.gitlab.com/aplus-framework/images/package:3
+  package-latest:
+    image: registry.gitlab.com/aplus-framework/images/package:latest
     container_name: package-framework-last
     working_dir: /package
     volumes:
