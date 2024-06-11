@@ -5,5 +5,3 @@ parameters:
         - tests
     dynamicConstantNames:
         - Aplus::VERSION
-        - Aplus::CODENAME
-        - Aplus::DESCRIPTION
