@@ -29,7 +29,7 @@
         }
     ],
     "require": {
-        "php": ">=8.1",
+        "php": ">=8.3",
         "aplus/autoload": "^2.0.2",
         "aplus/cache": "^3.0.1",
         "aplus/cli": "^2.4.0",
