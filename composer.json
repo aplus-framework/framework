@@ -61,7 +61,7 @@
         "ergebnis/composer-normalize": "^2.31",
         "phpmd/phpmd": "^2.13",
         "phpstan/phpstan": "^1.10",
-        "phpunit/phpunit": "^9.6"
+        "phpunit/phpunit": "^10.5"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
