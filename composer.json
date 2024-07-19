@@ -46,7 +46,7 @@
         "aplus/helpers": "^4.0",
         "aplus/http": "^6.0",
         "aplus/http-client": "^5.0",
-        "aplus/image": "^2.2.4",
+        "aplus/image": "^3.0",
         "aplus/language": "^4.0",
         "aplus/log": "^4.0",
         "aplus/mvc": "^4.0",
