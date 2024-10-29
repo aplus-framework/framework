@@ -16,8 +16,6 @@ final class Aplus
 {
     /**
      * The Aplus version.
-     *
-     * @var string
      */
-    public const VERSION = '25.1.0';
+    public const string VERSION = '25.1.0';
 }
