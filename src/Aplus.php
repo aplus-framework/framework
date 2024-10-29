@@ -19,5 +19,5 @@ final class Aplus
      *
      * @var string
      */
-    public const VERSION = '25.0.0';
+    public const VERSION = '25.1.0';
 }
