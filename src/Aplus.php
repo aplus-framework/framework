@@ -17,5 +17,5 @@ final class Aplus
     /**
      * The Aplus version.
      */
-    public const string VERSION = '25.1.0';
+    public const string VERSION = '26.0.0';
 }
