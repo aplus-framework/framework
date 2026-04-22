@@ -10,7 +10,7 @@
 use Framework\CodingStandard\Config;
 use Framework\CodingStandard\Finder;
 
-return (new Config())->setDefaultHeaderComment(
+return new Config()->setDefaultHeaderComment(
     'Aplus Framework',
     'Natan Felles <natanfelles@gmail.com>'
 )->setFinder(
