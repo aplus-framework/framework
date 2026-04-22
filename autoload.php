@@ -14,7 +14,7 @@ use Framework\Autoload\Autoloader;
 
 $aplusDir = dirname(__DIR__) . \DIRECTORY_SEPARATOR;
 
-return (new Autoloader())->setClasses([
+return new Autoloader()->setClasses([
     'Aplus' => __DIR__ . '/src/Aplus.php',
 ])->setNamespaces([
     'Framework\Autoload' => $aplusDir . 'autoload/src',

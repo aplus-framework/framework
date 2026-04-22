@@ -12,7 +12,7 @@ require __DIR__ . '/../autoload/src/Preloader.php';
 
 use Framework\Autoload\Preloader;
 
-$files = (new Preloader())->load();
+$files = new Preloader()->load();
 echo 'Preloading Aplus Framework: ' . \PHP_EOL;
 foreach ($files as $index => $file) {
     echo ++$index . ') ' . $file . \PHP_EOL;
