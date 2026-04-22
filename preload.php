@@ -7,6 +7,7 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
+// NOTE: This file is designed to work in a global installation with Composer or similar.
 require __DIR__ . '/../autoload/src/Preloader.php';
 
 use Framework\Autoload\Preloader;
