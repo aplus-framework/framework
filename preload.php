@@ -12,9 +12,14 @@ require __DIR__ . '/../autoload/src/Preloader.php';
 
 use Framework\Autoload\Preloader;
 
+new Preloader()->load();
+
+/*
+// Commenting prevents the echo from appearing in the server logs.
 $files = new Preloader()->load();
 echo 'Preloading Aplus Framework: ' . \PHP_EOL;
 foreach ($files as $index => $file) {
     echo ++$index . ') ' . $file . \PHP_EOL;
 }
 echo 'Total of ' . count($files) . ' preloaded files.' . \PHP_EOL . \PHP_EOL;
+*/
