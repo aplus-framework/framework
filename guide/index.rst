@@ -123,7 +123,7 @@ Let's see an example autoloading in the ``index.php`` file:
 
     App::setService('autoloader', $autoloader);
 
-    (new App())->run();
+    new App()->run();
 
 The Autoloader instance was reused, setting the directory to the ``App`` namespace
 and also set as a service in the MVC
@@ -197,7 +197,7 @@ Let's look at a basic file for responding to HTTP requests:
     <?php
     use Framework\MVC\App;
 
-    (new App())->runHttp();
+    new App()->runHttp();
 
 And that's it!
 
