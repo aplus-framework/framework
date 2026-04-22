@@ -146,7 +146,7 @@ PHP-FPM
 In production, it is very common to use **FastCGI Process Manager**.
 
 The ``php.ini`` file of `PHP-FPM <https://www.php.net/manual/en/book.fpm.php>`_
-on Debian-based distributions is located at ``/etc/php/8.1/fpm/php.ini``.
+on Debian-based distributions is located at ``/etc/php/8.5/fpm/php.ini``.
 
 To enable preloading enter the path of the preload file and the username,
 which is normally ``www-data``:
@@ -160,7 +160,7 @@ Then restart the PHP-FPM service:
 
 .. code-block::
 
-    sudo systemctl restart php8.1-fpm.service
+    sudo systemctl restart php8.5-fpm.service
 
 And that's it! Loaded classes. We can use them directly as if they were part of
 the PHP core!
