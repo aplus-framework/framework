@@ -60,7 +60,7 @@
         "aplus/coding-standard": "^4.0",
         "ergebnis/composer-normalize": "^2.44",
         "phpmd/phpmd": "^2.15",
-        "phpstan/phpstan": "^1.12",
+        "phpstan/phpstan": "^2.2",
         "phpunit/phpunit": "^10.5"
     },
     "minimum-stability": "dev",
