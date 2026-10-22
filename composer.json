@@ -43,7 +43,7 @@
         "aplus/email": "^5.0",
         "aplus/events": "^3.0",
         "aplus/factories": "^3.0",
-        "aplus/helpers": "^5.0",
+        "aplus/helpers": "^6.0",
         "aplus/http": "^7.0",
         "aplus/http-client": "^6.0",
         "aplus/image": "^4.0",
