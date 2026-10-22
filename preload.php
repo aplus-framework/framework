@@ -10,7 +10,7 @@
 // NOTE: This file is designed to work in a global installation with Composer or similar.
 require __DIR__ . '/../autoload/src/Preloader.php';
 
-use Framework\Autoload\Preloader;
+use Aplus\Autoload\Preloader;
 
 new Preloader()->load();
 
